@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({baseURL: 'https://sharepic-server.vercel.app'});
+const API = axios.create({baseURL: 'https://sharepic-server.onrender.com'});
 
 API.interceptors.request.use( (req) => {
     if(localStorage.getItem('profile')){
