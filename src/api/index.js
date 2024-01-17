@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({baseURL: 'https://sharepic-server.onrender.com'});
+const API = axios.create({baseURL: 'https://vivacious-tan-centipede.cyclic.app'});
 
 API.interceptors.request.use( (req) => {
     if(localStorage.getItem('profile')){
